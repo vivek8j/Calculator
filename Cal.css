@@ -1,15 +1,88 @@
 * {
     margin: 0;
     padding: 0;
+    /* background-color: #8bc6ec; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
     height: 4rem;
     background-color: black;
     color: white;
-    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
     font-size: 2.5rem;
+}
+
+.main {
+    width: 350px;
+    padding: 15px;
+    background-color: #444444;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.textview {
+    display: flex;
+    justify-content: center;
+    outline: 0px;
+    background-color: grey;
+    background: transparent;
+    width: 320px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: right;
+    color: #fff;
+}
+
+button {
+    display: grid;
+    /* The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning. */
+
+    gap: 7px;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 77px;
+    /* border-radius: 50%; */
+    background-color: grey;
+}
+
+#ADD {
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#DIV,
+#MUL,
+#SUB {
+    font-weight: 700;
+}
+
+#AC,
+#DEL,
+#MOD,
+#DIV,
+#MUL,
+#SUB,
+#ADD {
+    background-color: lightslategray;
+}
+
+table {
+    background-color: grey;
+}
+
+button:hover {
+    border: 2px solid white;
+
 }
