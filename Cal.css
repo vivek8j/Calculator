@@ -50,7 +50,9 @@ button {
     cursor: pointer;
     width: 77px;
     /* border-radius: 50%; */
-    background-color: grey;
+    /* background-color: grey; */
+    background: #333333;
+    color: #fff;
 }
 
 #ADD {
@@ -60,6 +62,7 @@ button {
     align-items: center;
     font-weight: 700;
     font-size: 2rem;
+
 }
 
 #DIV,
@@ -75,12 +78,15 @@ button {
 #MUL,
 #SUB,
 #ADD {
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
+    background: #a6a6a6;
+    color: #000000;
 }
 
 table {
     background-color: grey;
 }
+
 
 button:hover {
     border: 2px solid white;
